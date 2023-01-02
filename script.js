@@ -12,10 +12,10 @@ function count(){
     }
     else{
         stats.style.display ="block";
-        char.innerHTML = text.value.length + +" " +"Characters"
-        words.innerHTML = text.value.trim().split(/\s+/).length + "words";
-        lines.innerHTML = text.value.split("\n").length + "Lines";
-        symbols.innerHTML = text.value.split(/[!@#$^&*+()_={};:'"<>.,?/-]/).length +"Symbols"
+        char.innerHTML = text.value.length  +" "+"Characters"
+        words.innerHTML = text.value.trim().split(/\s+/).length + " "+ "words";
+        lines.innerHTML = text.value.split("\n").length +" "+ "Lines";
+        symbols.innerHTML = text.value.split(/[!@#$^&*+()_={};:'"<>.,?/-]/).length +" "+"Symbols"
     }
 }
 
